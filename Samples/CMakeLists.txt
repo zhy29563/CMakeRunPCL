@@ -49,3 +49,4 @@ ADD_EXECUTABLE(range_image_border_extraction    sources/range_images/range_image
 ADD_EXECUTABLE(filering_passthrough             sources/filtering/passthrough.cpp)
 ADD_EXECUTABLE(filering_voxel_grid              sources/filtering/voxel_grid.cpp)
 ADD_EXECUTABLE(filering_statistical_removal     sources/filtering/statistical_removal.cpp)
+ADD_EXECUTABLE(filering_project_inliers         sources/filtering/project_inliers.cpp)
