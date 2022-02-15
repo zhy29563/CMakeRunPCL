@@ -61,3 +61,4 @@ ADD_EXECUTABLE(feature_normal_estimation            sources/features/normal_esti
 ADD_EXECUTABLE(feature_normal_estimation_ii         sources/features/normal_estimation_using_integral_images.cpp)
 ADD_EXECUTABLE(feature_point_feature_histogram      sources/features/point_feature_histogram.cpp)
 ADD_EXECUTABLE(feature_fast_point_feature_histogram sources/features/fast_point_feature_histogram.cpp)
+ADD_EXECUTABLE(feature_viewport_feature_histogram   sources/features/viewport_feature_histogram.cpp)
