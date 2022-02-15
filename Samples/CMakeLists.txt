@@ -53,3 +53,4 @@ ADD_EXECUTABLE(filering_project_inliers         sources/filtering/project_inlier
 ADD_EXECUTABLE(filering_extract_indices         sources/filtering/extract_indices.cpp)
 ADD_EXECUTABLE(filering_conditional_removal     sources/filtering/conditional_removal.cpp)
 ADD_EXECUTABLE(filering_radius_removal          sources/filtering/radius_removal.cpp)
+ADD_EXECUTABLE(filering_crophull_removal        sources/filtering/crophull.cpp)
