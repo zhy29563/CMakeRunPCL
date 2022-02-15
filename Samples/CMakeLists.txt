@@ -36,3 +36,4 @@ ADD_EXECUTABLE(kdtree_search                sources/kdtree/kdtree_search.cpp)
 # OC TREE
 ########################################################################################################################
 ADD_EXECUTABLE(octree_search                sources/octree/octree_search.cpp)
+ADD_EXECUTABLE(octree_compression           sources/octree/octree_compression.cpp)
