@@ -43,3 +43,7 @@ ADD_EXECUTABLE(octree_change_detection          sources/octree/octree_change_det
 ########################################################################################################################
 ADD_EXECUTABLE(range_image_creation             sources/range_images/range_image_creation.cpp)
 ADD_EXECUTABLE(range_image_border_extraction    sources/range_images/range_image_border_extraction.cpp)
+########################################################################################################################
+# Filtering
+########################################################################################################################
+ADD_EXECUTABLE(filering_passthrough             sources/filtering/passthrough.cpp)
