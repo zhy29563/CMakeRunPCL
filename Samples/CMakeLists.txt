@@ -23,22 +23,23 @@ LINK_LIBRARIES(${PCL_LIBRARIES})
 ########################################################################################################################
 # I/O
 ########################################################################################################################
-ADD_EXECUTABLE(io_pcd_file                  sources/io/pcd_file.cpp)
-ADD_EXECUTABLE(io_pcd_write                 sources/io/pcd_write.cpp)
-ADD_EXECUTABLE(io_pcd_read                  sources/io/pcd_read.cpp)
-ADD_EXECUTABLE(io_concatenate_points        sources/io/concatenate_points.cpp)
-ADD_EXECUTABLE(io_concatenate_fields        sources/io/concatenate_fields.cpp)
+ADD_EXECUTABLE(io_pcd_file                      sources/io/pcd_file.cpp)
+ADD_EXECUTABLE(io_pcd_write                     sources/io/pcd_write.cpp)
+ADD_EXECUTABLE(io_pcd_read                      sources/io/pcd_read.cpp)
+ADD_EXECUTABLE(io_concatenate_points            sources/io/concatenate_points.cpp)
+ADD_EXECUTABLE(io_concatenate_fields            sources/io/concatenate_fields.cpp)
 ########################################################################################################################
 # KD TREE
 ########################################################################################################################
-ADD_EXECUTABLE(kdtree_search                sources/kdtree/kdtree_search.cpp)
+ADD_EXECUTABLE(kdtree_search                    sources/kdtree/kdtree_search.cpp)
 ########################################################################################################################
 # OC TREE
 ########################################################################################################################
-ADD_EXECUTABLE(octree_search                sources/octree/octree_search.cpp)
-ADD_EXECUTABLE(octree_compression           sources/octree/octree_compression.cpp)
-ADD_EXECUTABLE(octree_change_detection      sources/octree/octree_change_detection.cpp)
+ADD_EXECUTABLE(octree_search                    sources/octree/octree_search.cpp)
+ADD_EXECUTABLE(octree_compression               sources/octree/octree_compression.cpp)
+ADD_EXECUTABLE(octree_change_detection          sources/octree/octree_change_detection.cpp)
 ########################################################################################################################
 # Range Image
 ########################################################################################################################
-ADD_EXECUTABLE(range_image_creation         sources/range_images/range_image_creation.cpp)
+ADD_EXECUTABLE(range_image_creation             sources/range_images/range_image_creation.cpp)
+ADD_EXECUTABLE(range_image_border_extraction    sources/range_images/range_image_border_extraction.cpp)
