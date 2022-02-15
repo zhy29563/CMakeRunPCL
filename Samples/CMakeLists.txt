@@ -54,3 +54,7 @@ ADD_EXECUTABLE(filering_extract_indices         sources/filtering/extract_indice
 ADD_EXECUTABLE(filering_conditional_removal     sources/filtering/conditional_removal.cpp)
 ADD_EXECUTABLE(filering_radius_removal          sources/filtering/radius_removal.cpp)
 ADD_EXECUTABLE(filering_crophull_removal        sources/filtering/crophull.cpp)
+########################################################################################################################
+# Features
+########################################################################################################################
+ADD_EXECUTABLE(feature_normal_estimation        sources/features/normal_estimation.cpp)
