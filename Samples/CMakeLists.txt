@@ -58,3 +58,4 @@ ADD_EXECUTABLE(filering_crophull_removal        sources/filtering/crophull.cpp)
 # Features
 ########################################################################################################################
 ADD_EXECUTABLE(feature_normal_estimation        sources/features/normal_estimation.cpp)
+ADD_EXECUTABLE(feature_normal_estimation_ii     sources/features/normal_estimation_using_integral_images.cpp)
