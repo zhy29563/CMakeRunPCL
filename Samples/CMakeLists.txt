@@ -28,3 +28,7 @@ ADD_EXECUTABLE(io_pcd_write                 sources/io/pcd_write.cpp)
 ADD_EXECUTABLE(io_pcd_read                  sources/io/pcd_read.cpp)
 ADD_EXECUTABLE(io_concatenate_points        sources/io/concatenate_points.cpp)
 ADD_EXECUTABLE(io_concatenate_fields        sources/io/concatenate_fields.cpp)
+########################################################################################################################
+# KD TREE
+########################################################################################################################
+ADD_EXECUTABLE(kdtree_search                sources/kdtree/kdtree_search.cpp)
