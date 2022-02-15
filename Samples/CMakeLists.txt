@@ -24,3 +24,4 @@ LINK_LIBRARIES(${PCL_LIBRARIES})
 # I/O
 ########################################################################################################################
 ADD_EXECUTABLE(io_pcd_file                  sources/io/pcd_file.cpp)
+ADD_EXECUTABLE(io_pcd_write                 sources/io/pcd_write.cpp)
