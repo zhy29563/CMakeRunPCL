@@ -47,3 +47,4 @@ ADD_EXECUTABLE(range_image_border_extraction    sources/range_images/range_image
 # Filtering
 ########################################################################################################################
 ADD_EXECUTABLE(filering_passthrough             sources/filtering/passthrough.cpp)
+ADD_EXECUTABLE(filering_voxel_grid              sources/filtering/voxel_grid.cpp)
