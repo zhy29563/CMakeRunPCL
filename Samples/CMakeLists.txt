@@ -32,3 +32,7 @@ ADD_EXECUTABLE(io_concatenate_fields        sources/io/concatenate_fields.cpp)
 # KD TREE
 ########################################################################################################################
 ADD_EXECUTABLE(kdtree_search                sources/kdtree/kdtree_search.cpp)
+########################################################################################################################
+# OC TREE
+########################################################################################################################
+ADD_EXECUTABLE(octree_search                sources/octree/octree_search.cpp)
