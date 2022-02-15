@@ -50,3 +50,4 @@ ADD_EXECUTABLE(filering_passthrough             sources/filtering/passthrough.cp
 ADD_EXECUTABLE(filering_voxel_grid              sources/filtering/voxel_grid.cpp)
 ADD_EXECUTABLE(filering_statistical_removal     sources/filtering/statistical_removal.cpp)
 ADD_EXECUTABLE(filering_project_inliers         sources/filtering/project_inliers.cpp)
+ADD_EXECUTABLE(filering_extract_indices         sources/filtering/extract_indices.cpp)
